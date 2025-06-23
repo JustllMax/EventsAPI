@@ -1,4 +1,6 @@
-namespace EventsSystem
+using EventsSystem;
+
+namespace EventsSystem.Example
 {
     
     public struct ExampleEventOne : IEvent

@@ -1,6 +1,7 @@
 using UnityEngine;
+using EventsSystem;
 
-namespace EventsSystem
+namespace EventsSystem.Example
 {
     public class Example : MonoBehaviour
     {
@@ -18,7 +19,7 @@ namespace EventsSystem
             // Invoking event that has data
             EventsAPI.Invoke<ExampleEventTwo>(ref example);
         
-            // Invoke event without daya
+            // Invoke event without data
             EventsAPI.Invoke<ExampleEventOne>();
         }
 
